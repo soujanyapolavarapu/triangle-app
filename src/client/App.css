@@ -98,7 +98,6 @@ form{
 }
 
 .displayMessage{
-  text-align: center;
   color: #1c2469;
   font-size: larger;
 }
@@ -142,7 +141,7 @@ p{
   justify-content: center;
   align-items: center;
   display: flex; 
-  background-color: #5baed4;;
+  background-color: #5baed4;
 }
 .fetchImages img{
   height:300px;
@@ -198,7 +197,7 @@ footer {
   justify-content: space-evenly;
   flex-direction: row;
 }
-
+    
 
  .social-links a{
 	display: inline-block;
@@ -224,7 +223,7 @@ footer {
   justify-content: space-evenly;
   align-items: center;
   margin: 2px;
-}
+} 
 
 .footer-second-title {
   text-decoration: underline;
@@ -291,13 +290,13 @@ ul.process-how-it-works li {
 }
 
 /* styling for Contact us component*/
-
+/*https://image.shutterstock.com/image-photo/creative-math-fractions-on-violet-260nw-1451874506.jpg*/
 .background-image-contact {
-  background-image: url(https://image.shutterstock.com/image-photo/creative-math-fractions-on-violet-260nw-1451874506.jpg);
+  background-image: url(https://lh3.googleusercontent.com/proxy/2JWIdbhnFvQO48nmPkFurIp2ZXkJEdbc5VVuk6XIHaxjC-RGGHhHkuSiHTKmlpQ2WN06N2QX_7sac2wvH-Ilru_DI51R09A7bqQoavC-OVI2pD7YPjE0r8NC2IOIrifDg3Wicj8N6M6s);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 625px;
 }
 .contact-details {
   color: black;
@@ -305,7 +304,7 @@ ul.process-how-it-works li {
   float: right;
   padding-top: 15px;
   font-size: 19px;
-}
+} 
 .contact-title {
   margin-left: 200px;
 }
@@ -330,7 +329,7 @@ ul.process-how-it-works li {
 .card {
 background-color: #5baed4;
 border-radius: 5px;
-margin: 20px;
+
 border:2px solid rgb(32, 49, 65);
 box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
@@ -341,8 +340,6 @@ box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 
 
 /*responsive design For mobiles*/
-/* Mobile Styles */
-/*@media(max-width: 574px)*/
 @media only screen and (max-width: 425px) 
 {
   /*header*/
@@ -444,6 +441,119 @@ p{
 .how-it-works {
   width: 80%;
   font-size: 16px;
+}
+
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 426px) and (max-width: 960px){
+
+  /* HomeBackground */
+  .back-images {
+    width: 99%;
+    height:85%;
+  }
+
+  /*Styling for Header component*/
+  .nav-links {
+    font-size: 24px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* styling for FindTriangle component (form)*/
+  form{
+    font-size: larger;
+    font-family:sans-serif;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    background-color: #5baed4;
+    margin: 50px 20px ;
+    padding: 30px 0 30px 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  
+  }
+
+  /*TriangleContent*/
+
+  .fetchTiangles{
+    width: 90%;
+    margin: 20px 0 20px 40px;  
+  }
+
+  .fetchImages img{
+    height:200px;
+    width:200px;
+  }
+
+  /* footer */
+  .footer-first {
+    justify-content: space-around;
+  }
+
+  .logo img{
+    width: 60px;
+    height:60px;
+  }
+
+  .social-links{
+    margin-right: 40px;
+  }
+
+  /* styling for how it works component*/
+
+.how-it-works {
+  width: 60%;
+}
+
+.questions-container li{
+margin-left: 0px;
+}
+
+ /* styling for Contact us component*/
+
+.background-image-contact {
+  background-image: url(https://cdn.wallpapersafari.com/54/27/KHtZWN.png);
+  width: 100%;
+  height: 700px;
+}
+.contact-address {
+  width: 100%;
+  margin: 20px 100px;
+}
+
+.contact-details {
+  width: 75%;
+  color: #f8f8ff;
+}
+
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /* HomeBackground */
+  .back-images {
+    height:75%;
+  }
+
+  /*Styling for Header component*/
+
+  .nav-links {
+    font-size: 24px;
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* styling for FindTriangle component (form)*/
+
+form{
+  width: 90%;
+  margin: 50px 50px ;
 }
 
 }
