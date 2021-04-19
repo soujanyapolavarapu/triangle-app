@@ -17,7 +17,7 @@ const Header = () => {
           <li>Home</li>
         </Link>
         <Link to={"/triangle"} className="navStyle">
-          <li>Draw Triangle</li>
+          <li>Find Triangle</li>
         </Link>
         <Link to={"/triangleContent"} className="navStyle">
           <li>Triangles</li>
