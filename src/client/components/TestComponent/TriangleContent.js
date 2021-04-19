@@ -18,7 +18,7 @@ const TrianglesContent = () => {
 
   //this below array consists of gify images, these will display while fetching data from API
   const imgArray = [
-    "src/client/assets/images/equilateral.gif",
+    "/client/assets/images/equilateral.gif",
     "src/client/assets/images/isoceles.gif",
     "src/client/assets/images/scalene.gif",
   ];
