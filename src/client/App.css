@@ -268,20 +268,7 @@ ul.process-how-it-works li {
 }
 
 /* styling for FAQ component*/
-.freq-ans-ques {
-  margin: 20px;
-}
 
-.input-search-icon {
-  display: flex;
-}
-.input-search-icon input {
-  width: 300px;
-  height: 25px;
-  margin-top: 20px;
-}
-
-.search-icon,
 .questions-container {
   margin-top: 20px;
 }

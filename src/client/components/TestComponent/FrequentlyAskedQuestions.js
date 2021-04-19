@@ -9,27 +9,35 @@ const FrequentlyAskedQuestions = () => {
       <div>
         <h1>Help center</h1>
       </div>
-
-      <div className="input-search-icon">
-        <input type="text" placeholder="What are you looking for?"></input>
-        <img
-          className="search-icon"
-          src="https://i.ibb.co/6H2K05c/web-search.png"
-        />
-      </div>
-
       <div className="questions-container">
         <div>
           <h3>Frequently Asked Questions</h3>
         </div>
         <ul>
-          <li>What is Triangle's World?</li>
-          <li>How does Triangle's World work?</li>
-          <li>Where does Triangle's World currently operate?</li>
-          <li>Are experiences online or in-person?</li>
-          <li>What information i can get here?</li>
-          <li>What about my safety?</li>
-          <li>How do I contact you?</li>
+          <li>Q: What is Triangle's World?</li>
+          <li>A: It gives the information about three side of triangle.</li>
+          <br />
+
+          <li>Q: How does Triangle's World work?</li>
+          <li>
+            A: IF you give the three side of triangle in centimeter, based on
+            the given sides, it will show the type of triangle.
+          </li>
+          <br />
+          <li>Q: Where does Triangle's World currently operate?</li>
+          <li>
+            A: Head office is in Denmark,information can be available 24/7
+            around the world.{" "}
+          </li>
+          <br />
+          <li>Q: What about my safety?</li>
+          <li>
+            A: We do not ask or store any personal information.And we are keep
+            on updgrading our website.
+          </li>
+          <br />
+          <li>Q: How to contact?</li>
+          <li>A: Please follow us, it consists of our social websites.</li>
         </ul>
       </div>
     </div>
