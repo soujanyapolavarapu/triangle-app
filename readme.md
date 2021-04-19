@@ -10,6 +10,6 @@
 Link to deployed website: 
 
 
-The api can now be found: `http://localhost:3000/api/triangleContent`
+The api can now be found: `http://localhost:5000/api/triangles`
 
 
