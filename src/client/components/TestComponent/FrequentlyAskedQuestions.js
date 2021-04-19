@@ -14,7 +14,7 @@ const FrequentlyAskedQuestions = () => {
         <input type="text" placeholder="What are you looking for?"></input>
         <img
           className="search-icon"
-          src="src/client/assets/images/web-search.png"
+          src="https://i.ibb.co/6H2K05c/web-search.png"
         />
       </div>
 

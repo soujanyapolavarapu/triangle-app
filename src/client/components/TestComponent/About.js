@@ -3,8 +3,8 @@ const About = () => {
   return (
     <div>
       <div>
-        <img
-          src='/src/client/assets/images/about.gif'
+        <img 
+          src="https://i.ibb.co/bvYVbXX/about.gif"
           alt="Gify triangle"
           className="about-triangle-gif"
         />

@@ -12,6 +12,7 @@ import FrequentlyAskedQuestions from "./components/TestComponent/FrequentlyAsked
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //This is the App component which imports all my components here and connect eachother.
+//All images are uploaded in a server and giving link as a path.Because of some issues with images.
 //Imports some Hooks like Router, Route, Switch from react library by installing 'react-router-dom' .
 function App() {
   return (

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const triangleNames = ({ sideOne, sideTwo, sideThree, setMessage }) => {
   sideOne = Number(sideOne);
   sideTwo = Number(sideTwo);

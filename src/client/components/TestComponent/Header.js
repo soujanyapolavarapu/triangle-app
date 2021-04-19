@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav>
       <img
-        src="src/client/assets/images/logo.png"
+        src="https://i.ibb.co/VBSK5pS/logo.png"
         alt="Triangle logo"
         className="header_logo"
       />
