@@ -6,8 +6,11 @@
     <br> 
 </p>
 
+Frontend: React, JS, HTML, CSS
+Backend: Node and Knex
+DB: MySQL DB
 
-Link to deployed website: 
+Link to deployed website: `https://findtriangle.herokuapp.com/`
 
 
 The api can now be found: `http://localhost:5000/api/triangles`
