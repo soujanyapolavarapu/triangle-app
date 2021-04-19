@@ -15,6 +15,8 @@ DB: MySQL DB
 Link to deployed website: `https://findtriangle.herokuapp.com/`
 
 
-The api can now be found: `http://localhost:5000/api/triangles`
+API can be found here locally `http://localhost:5000/api/triangles` & 
+
+here in online `https://findtriangle.herokuapp.com/api/triangles`
 
 
