@@ -269,6 +269,10 @@ ul.process-how-it-works li {
 
 /* styling for FAQ component*/
 
+.freq-ans-ques {
+  margin: 20px;
+}
+
 .questions-container {
   margin-top: 20px;
 }
@@ -491,7 +495,10 @@ p{
   }
 
   /* styling for how it works component*/
-
+.freq-ans-ques {
+    margin: 20px;
+  }
+  
 .how-it-works {
   width: 60%;
 }
