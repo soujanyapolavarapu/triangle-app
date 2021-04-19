@@ -7,7 +7,9 @@
 </p>
 
 Frontend: React, JS, HTML, CSS
+<br>
 Backend: Node and Knex
+<br>
 DB: MySQL DB
 
 Link to deployed website: `https://findtriangle.herokuapp.com/`
