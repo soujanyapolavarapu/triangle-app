@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 
+
 const triangleNames = ({ sideOne, sideTwo, sideThree, setMessage }) => {
   sideOne = Number(sideOne);
   sideTwo = Number(sideTwo);
@@ -58,7 +59,7 @@ const FindTriangleName = () => {
           id="sideOne"
           type="number"
           value={sideOne}
-          placeholder="Enter side one"
+          placeholder="Enter side one in cm"
           min="1"
           required
           onChange={(e) => setSideOne(e.target.value)}
@@ -69,7 +70,7 @@ const FindTriangleName = () => {
           id="sideTwo"
           type="number"
           value={sideTwo}
-          placeholder="Enter side two"
+          placeholder="Enter side two in cm" 
           min="1"
           required
           onChange={(e) => setSideTwo(e.target.value)}
@@ -80,7 +81,7 @@ const FindTriangleName = () => {
           id="sideThree"
           type="number"
           value={sideThree}
-          placeholder="Enter side three"
+          placeholder="Enter side three in cm"
           min="1"
           required
           onChange={(e) => setSideThree(e.target.value)}
@@ -102,9 +103,8 @@ const FindTriangleName = () => {
             </div>
             <div>
               <img
-                src="src/client/assets/images/equilateralImage.png"
+                src="https://i.ibb.co/RNsGZrh/equi.png"
                 alt="Equilateral Triangle"
-                
               />
             </div>
           </div>
@@ -121,9 +121,8 @@ const FindTriangleName = () => {
             </div>
             <div>
               <img
-                src="src/client/assets/images/isoceleImage.jpeg"
+                src="https://i.ibb.co/9tTtkch/isosceles-Image.jpg"
                 alt="Isoceles Triangle"
-                
               />
             </div>
           </div>
@@ -140,9 +139,8 @@ const FindTriangleName = () => {
             </div>
             <div>
               <img
-                src="src/client/assets/images/scalene.jpeg "
-                alt="Scalene Triangle"
-                
+                src="https://i.ibb.co/DWG8KMq/scalene.jpg "
+                alt="Scalene Triangle" 
               />
             </div>
           </div>

@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="footer-logo-text">
             <div className="logo">
               <img
-                src="src/client/assets/images/logo.png"
+                src="https://i.ibb.co/VBSK5pS/logo.png"
                 alt="Triangle logo"
               />
             </div>
@@ -30,7 +30,7 @@ const Footer = () => {
               <div>
               
                 <img
-                  src="src/client/assets/images/appStore.png"
+                  src="https://i.ibb.co/D1xwCf0/appStore.png"
                   alt="app_store"
                   height="50px"
                   width="50px"
@@ -39,7 +39,7 @@ const Footer = () => {
               </div>
               <div>
                 <img
-                  src="src/client/assets/images/google.jpeg"
+                  src="https://i.ibb.co/TLkK0tx/google.jpg"
                   alt="app_store"
                   height="50px"
                   width="50px"

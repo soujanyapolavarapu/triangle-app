@@ -3,10 +3,10 @@ import React, { Children, useEffect, useState } from "react";
 
 //This component is used as a children component and exported in home component to change background images repeated.
 const slideImages = [
-  "src/client/assets/images/background1.png",
-  "src/client/assets/images/background2.jpeg",
-  "src/client/assets/images/background3.jpeg",
-  "src/client/assets/images/background4.jpeg",
+  "https://i.ibb.co/QkDP6HM/background1.png",
+  "https://i.ibb.co/wMMMBf4/background2.jpg",
+  "https://i.ibb.co/ZMCnqh5/background3.jpg",
+  "https://i.ibb.co/RhvWSzz/background4.jpg",
 ];
 
 function HomeBackground({ children }) {

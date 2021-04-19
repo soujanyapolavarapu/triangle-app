@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <nav>
       <img
-        src="src/client/assets/images/logo.png"
+        src="https://i.ibb.co/VBSK5pS/logo.png"
         alt="Triangle logo"
         className="header_logo"
       />
@@ -17,7 +17,7 @@ const Header = () => {
           <li>Home</li>
         </Link>
         <Link to={"/triangle"} className="navStyle">
-          <li>Draw Triangle</li>
+          <li>Find Triangle</li>
         </Link>
         <Link to={"/triangleContent"} className="navStyle">
           <li>Triangles</li>

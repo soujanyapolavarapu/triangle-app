@@ -2,16 +2,16 @@
   box-sizing: border-box;
 }
 body {
-  font-family:sans-serif;
+  font-family: sans-serif;
   background-color: #eaf0f5;
 }
 
 /* styling for Home component*/
-.home_h1{
+.home_h1 {
   text-align: center;
-} 
+}
 
-.home_h2{
+.home_h2 {
   padding-left: 30px;
 }
 
@@ -22,18 +22,18 @@ body {
   left: 0;
   opacity: 0.2;
   width: 100%;
-  height:60%;
+  height: 60%;
   background-color: #a50e0e;
   z-index: -1;
 }
 
 /*Styling for Header component*/
-.header_logo{
-  height:110px;
-  width:100px;
+.header_logo {
+  height: 110px;
+  width: 100px;
 }
-.navStyle{
-  color: aliceblue
+.navStyle {
+  color: aliceblue;
 }
 
 nav {
@@ -57,11 +57,11 @@ nav {
 li {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
   transition: all 0.5s ease;
 }
-a:hover{
+a:hover {
   color: #24262b;
   background-color: #5baed4;
   border-radius: 10px;
@@ -70,40 +70,37 @@ a:hover{
 
 /* styling for FindTriangle component (form)*/
 
-form{
+form {
   font-size: larger;
-  font-family:sans-serif;
+  font-family: sans-serif;
   border: 2px solid gray;
   border-radius: 5px;
   width: 70%;
   background-color: #5baed4;
-  margin: 50px 200px ;
+  margin: 50px 200px;
   padding: 30px 0 30px 50px;
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-
 }
-.responcecard{
+.responcecard {
   align-items: center;
   display: flex;
   background-color: #5baed4;
   border-radius: 5px;
   margin: 20px;
-  border:2px solid rgb(32, 49, 65);
+  border: 2px solid rgb(32, 49, 65);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
-
 }
-.responcecard img{
-  height:250px;
-  width:250px;
+.responcecard img {
+  height: 250px;
+  width: 250px;
 }
 
-.displayMessage{
-  text-align: center;
+.displayMessage {
   color: #1c2469;
   font-size: larger;
 }
-.label_one{
-margin-right: 12px;
+.label_one {
+  margin-right: 12px;
 }
 
 input[type="number"],
@@ -120,38 +117,38 @@ select {
 
 button {
   font-size: larger;
-  background-color:  #1c2469;
+  background-color: #1c2469;
   width: 200px;
   height: 50px;
   border-radius: 15px;
-  margin: 20px 0 20px 180px;
-  color:aliceblue
+  margin: 20px 0 20px 200px;
+  color: aliceblue;
 }
-p{
+p {
   font-size: larger;
   padding: 10px 30px;
 }
 
 /*TriangleContent*/
 
-.fetchTiangles{
+.fetchTiangles {
   width: 80%;
   border: 1px solid gray;
   padding: 10px;
   margin: 20px 0 20px 120px;
   justify-content: center;
   align-items: center;
-  display: flex; 
-  background-color: #5baed4;;
+  display: flex;
+  background-color: #5baed4;
 }
-.fetchImages img{
-  height:300px;
-  width:300px;
+.fetchImages img {
+  height: 300px;
+  width: 300px;
 }
 /* footer */
 footer {
   background-color: #1c2469;
-  color: aliceblue; 
+  color: aliceblue;
   bottom: 0;
   clear: both;
 }
@@ -169,9 +166,9 @@ footer {
   flex: 2;
 }
 
-.logo img{
+.logo img {
   width: 80px;
-  height:80px;
+  height: 80px;
 }
 .footer-logo-text {
   display: flex;
@@ -181,7 +178,7 @@ footer {
   margin-left: 20px;
   display: flex;
   justify-content: space-around;
-  align-items: center;  
+  align-items: center;
 }
 
 .app-store {
@@ -192,31 +189,29 @@ footer {
 .app-store > * {
   padding: 15px;
 }
-.social-links{
+.social-links {
   display: inline-block;
   margin-right: 100px;
   justify-content: space-evenly;
   flex-direction: row;
 }
 
-
- .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(215, 248, 237, 0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 45px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
+.social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(215, 248, 237, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
 }
-.social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
+.social-links a:hover {
+  color: #24262b;
+  background-color: #ffffff;
 }
-
 
 .footer-second {
   list-style-type: none;
@@ -238,7 +233,7 @@ footer {
 }
 .link:hover {
   transition: 0.3s;
-  
+
   color: #5baed4;
   text-decoration: underline;
 }
@@ -247,9 +242,9 @@ footer {
   text-align: center;
   padding: 5px;
 }
-.footer-last a{
+.footer-last a {
   color: aliceblue;
-  background-color:#4b7183;
+  background-color: #4b7183;
   border-radius: 10px;
 }
 /* styling for how it works component*/
@@ -269,20 +264,11 @@ ul.process-how-it-works li {
 }
 
 /* styling for FAQ component*/
+
 .freq-ans-ques {
   margin: 20px;
 }
 
-.input-search-icon {
-  display: flex;
-}
-.input-search-icon input {
-  width: 300px;
-  height: 25px;
-  margin-top: 20px;
-}
-
-.search-icon,
 .questions-container {
   margin-top: 20px;
 }
@@ -293,11 +279,11 @@ ul.process-how-it-works li {
 /* styling for Contact us component*/
 
 .background-image-contact {
-  background-image: url(https://image.shutterstock.com/image-photo/creative-math-fractions-on-violet-260nw-1451874506.jpg);
+  background-image: url(https://i.ibb.co/r3jp41y/bck.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 625px;
 }
 .contact-details {
   color: black;
@@ -321,130 +307,236 @@ ul.process-how-it-works li {
 /* styling for About component*/
 .about-triangle-gif {
   height: 500px;
- width: 100%;
+  width: 100%;
 }
 
 .about-title {
   margin-left: 50px;
 }
 .card {
-background-color: #5baed4;
-border-radius: 5px;
-margin: 20px;
-border:2px solid rgb(32, 49, 65);
-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  background-color: #5baed4;
+  border-radius: 5px;
+
+  border: 2px solid rgb(32, 49, 65);
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
 }
 
 .about-info > * {
   padding-bottom: 20px;
 }
 
-
 /*responsive design For mobiles*/
-/* Mobile Styles */
-/*@media(max-width: 574px)*/
-@media only screen and (max-width: 425px) 
-{
+@media only screen and (max-width: 425px) {
   /*header*/
   .nav-links {
     font-size: 16px;
     width: 100%;
   }
-  
-/*Footer*/
-.footer-first,
-.footer-logo-text {
-  flex-direction: column;
-}
-.footer-logo-text h2,
-.app-store {
-  margin-right: 150px;
-}
-.footer-icons {
-  margin-left: 20px;
-  flex-direction: column;
-}
-.social-links {
-  margin-right: 170px;
+
+  /*Footer*/
+  .footer-first,
+  .footer-logo-text {
+    flex-direction: column;
+  }
+  .footer-logo-text h2,
+  .app-store {
+    margin-right: 150px;
+  }
+  .footer-icons {
+    margin-left: 20px;
+    flex-direction: column;
+  }
+  .social-links {
+    margin-right: 170px;
+  }
+
+  /*HomeBackground */
+  .back-images {
+    height: 100%;
+  }
+
+  /*Form Find Triangle component*/
+  form {
+    width: 95%;
+    margin: 15px;
+    font-size: medium;
+    padding: 5px 0 10px 40px;
+  }
+
+  form h1 {
+    font-size: x-large;
+  }
+
+  button {
+    width: 100px;
+    height: 30px;
+    margin: 20px 0 20px 180px;
+  }
+
+  input[type="number"],
+  select {
+    font-size: small;
+    width: 43%;
+    padding: 6px 10px;
+  }
+  p {
+    font-size: small;
+    padding: 10px 30px;
+  }
+
+  .responcecard img {
+    height: 100px;
+    width: 80px;
+  }
+  /*TriangleContent*/
+  .fetchTiangles {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 450px;
+    margin: 5px 0 10px 10px;
+  }
+  .fetchImages img {
+    height: 150px;
+    width: 100px;
+  }
+
+  /*Contact us page*/
+  .background-image-contact {
+    background-image: url(https://cdn.wallpapersafari.com/54/27/KHtZWN.png);
+    width: 100%;
+    height: 900px;
+  }
+  .contact-details {
+    color: #f8f8ff;
+    width: 100%;
+    float: left;
+  }
+  .contact-title {
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .contact-address {
+    margin: 20px 20px;
+  }
+
+  /* styling for how it works component*/
+
+  .how-it-works {
+    width: 80%;
+    font-size: 16px;
+  }
 }
 
-/*HomeBackground */
-.back-images {
-  height:100%;
+/* Tablet Styles */
+@media only screen and (min-width: 426px) and (max-width: 960px) {
+  /* HomeBackground */
+  .back-images {
+    width: 99%;
+    height: 85%;
+  }
+
+  /*Styling for Header component*/
+  .nav-links {
+    font-size: 24px;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  /* styling for FindTriangle component (form)*/
+  form {
+    font-size: larger;
+    font-family: sans-serif;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 95%;
+    background-color: #5baed4;
+    margin: 50px 20px;
+    padding: 30px 0 30px 50px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  }
+
+  /*TriangleContent*/
+
+  .fetchTiangles {
+    width: 90%;
+    margin: 20px 0 20px 40px;
+  }
+
+  .fetchImages img {
+    height: 200px;
+    width: 200px;
+  }
+
+  /* footer */
+  .footer-first {
+    justify-content: space-around;
+  }
+
+  .logo img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-links {
+    margin-right: 40px;
+  }
+
+  /* styling for how it works component*/
+  .freq-ans-ques {
+    margin: 20px;
+  }
+
+  .how-it-works {
+    width: 60%;
+  }
+
+  .questions-container li {
+    margin-left: 0px;
+  }
+
+  /* styling for Contact us component*/
+
+  .background-image-contact {
+    background-image: url(https://cdn.wallpapersafari.com/54/27/KHtZWN.png);
+    width: 100%;
+    height: 700px;
+  }
+  .contact-address {
+    width: 100%;
+    margin: 20px 100px;
+  }
+
+  .contact-details {
+    width: 75%;
+    color: #f8f8ff;
+  }
 }
 
-/*Form Find Triangle component*/
-form{
-  width:95%;
-  margin: 15px;
-  font-size: medium;
-  padding: 5px 0 10px 40px;
-}
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  /* HomeBackground */
+  .back-images {
+    height: 75%;
+  }
 
-form h1{
-  font-size: x-large;
-}
+  /*Styling for Header component*/
 
-button {
-  width: 100px;
-  height: 30px;
-  margin: 20px 0 20px 180px;
-}
+  .nav-links {
+    font-size: 24px;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
-input[type="number"],
-select {
-  font-size: small;
-  width: 40%;
-  padding: 6px 10px;
-}
-p{
-  font-size: small;
-  padding: 10px 30px;
-}
+  /* styling for FindTriangle component (form)*/
 
-.responcecard img{
-  height:100px;
-  width:80px;
+  form {
+    width: 90%;
+    margin: 50px 50px;
+  }
 }
-/*TriangleContent*/
-.fetchTiangles{
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  height:450px;
-  margin: 5px 0 10px 10px; 
-}
-.fetchImages img{
-  height:60px;
-  width:50%;
-}
-
-/*Contact us page*/
-.background-image-contact {
-  background-image: url(https://cdn.wallpapersafari.com/54/27/KHtZWN.png);
-  width: 100%;
-  height: 900px;
-}
-.contact-details {
-  color: #f8f8ff;
-  width: 100%;
-  float: left;
-}
-.contact-title {
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-.contact-address {
-  margin: 20px 20px;
-}
-
-/* styling for how it works component*/
-
-.how-it-works {
-  width: 80%;
-  font-size: 16px;
-}
-
-}
-

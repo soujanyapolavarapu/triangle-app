@@ -11,9 +11,8 @@ const HowItWorks = () => {
         <ul className="process-how-it-works">
           <li>In Home, it tells about What is triangle and brief history.</li>
           <li>
-            In Draw triangle, give the three side of triangle in centimeter,
-            based on the sides trinagle impage will be drawn and let you know
-            what type of triangle it is(using canvas).
+            In Find triangle, give the three side of triangle in centimeter,
+            based on the sides of the trinagle. It will show the type of a triangle.
           </li>
           <li>
             In Triangles, it gives different types of triangles

@@ -18,9 +18,9 @@ const TrianglesContent = () => {
 
   //this below array consists of gify images, these will display while fetching data from API
   const imgArray = [
-    "src/client/assets/images/equilateral.gif",
-    "src/client/assets/images/isoceles.gif",
-    "src/client/assets/images/scalene.gif",
+    "https://i.ibb.co/yQ4kYvH/equilateral.gif",
+    "https://i.ibb.co/55Ckxdv/isoceles.gif",
+    "https://i.ibb.co/WcJNPXp/scalene.gif",
   ];
 
   return (
@@ -37,7 +37,7 @@ const TrianglesContent = () => {
               src={
                 imgArray[triangle.id - 1]
                   ? imgArray[triangle.id - 1]
-                  : "src/client/assets/images/random.gif"
+                  : "https://i.ibb.co/Kx2dJnc/random.gif"
               }
               alt="triangle"
             />

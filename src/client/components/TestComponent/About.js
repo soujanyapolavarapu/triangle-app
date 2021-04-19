@@ -4,9 +4,9 @@ const About = () => {
     <div>
       <div>
         <img
-          className="about-triangle-gif"
-          src="src/client/assets/images/about.gif"
+          src="https://i.pinimg.com/originals/fe/08/01/fe0801f154318913625012007362f220.gif"
           alt="Gify triangle"
+          className="about-triangle-gif"
         />
       </div>
       <div className="card">
